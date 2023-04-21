@@ -44,7 +44,7 @@ const ExpenseForm = (props) => {
 
     const expenseData = {
       title: enteredTitle,
-      amount: +enteredAmount,
+      amount: +enteredAmount, // convert string to a number data type.
       date: new Date(enteredDate),
     };
 
